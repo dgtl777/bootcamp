@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        #navbar{
+            height: 5vh;
+            background-color: white;
+            display: flex;
+            align-items: center;
+        }
+        #main{
+            height: 95vh;
+            background-color: yellow;
+            display: flex;
+        }
+        #sidebar{
+            width: 20vw;
+            background-color: white;
+        }
+        #content{
+            width: 80vw;
+            height: 95vh;
+            background-color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+        }
+        #videos{
+            width: 80vw;
+            height: 30%;
+            background-color: whitesmoke;
+            display: flex;
+        }
+        #sidebutton{
+            width: 100%;
+            height: 50px;
+            background-color: white;
+            border: none;
+        }
+        #sidebutton:hover{
+            background-color: whitesmoke;
+        }
+        iframe{
+            width: 100%;
+            height:100%;
+            border: 4px solid red;
+        }
+        input{
+            height: 30px;
+            width: 100%;
+        }
+        button{
+            height: 30px;
+            width: 200px;
+            margin-left: 2px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        h1{
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/2048px-YouTube_social_white_square_%282017%29.svg.png" alt="">
+            <h1>Mini Youtube</h1>
+            <input type="text" name="" id="">
+            <button>Search</button>
+    </div>
+    <div id="main">
+        <div id="sidebar">
+            <button id="sidebutton">Home</button><br>
+            <button id="sidebutton">Explore</button><br>
+            <button id="sidebutton">Subscription</button><br>
+            <br><br>
+            <button id="sidebutton">Library</button>
+            <button id="sidebutton">History</button>
+            <button id="sidebutton">Your Videos</button>
+            <button id="sidebutton">Watch Videos</button>
+            <button id="sidebutton">Liked Videos</button>
+            <button id="sidebutton">Show More</button>
+        </div>
+        <div id="content">
+            <div id="videos">
+            <iframe src="https://www.youtube.com/embed/t0Q2otsqC4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/qeeDhADAU4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/STIfEf5_6Qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="videos">
+                <iframe src="https://www.youtube.com/embed/t0Q2otsqC4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/qeeDhADAU4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/STIfEf5_6Qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="videos">
+            <iframe src="https://www.youtube.com/embed/t0Q2otsqC4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/qeeDhADAU4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/STIfEf5_6Qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
